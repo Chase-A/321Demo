@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    background: #aaa;
+    font-size: larger;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+
+h1{
+    color:#eee;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    width:fit-content;
+}
+
+
+img{
+    margin: 3px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.img-container{
+    position: relative;
+    color: white;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+.hover-expand:hover{
+    transform: translate3D(0,-1px,0) scale(1.05);
+    
+}
+
+.hover-expand-slow:hover{
+    transform: translate3D(0,-1px,0) scale(1.05);
+    transition: all .3s ease;
+}
+
+.card{
+    color: white;
+    margin: 3px;
+    background-image: url('images/poster1.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: transform 200ms;
+}
+
+.card-content{
+    padding: 10px;
+    background: linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(0 0% 0% / .6) 20%,
+        hsl(0 0% 0% / 1)
+    );
+    margin-top: 160px;
+    transform: translateY(100%)
+}
+
+.card:hover .card-content{
+    transform: translateY(0);
+    transition: transform 200ms;
+}
+
+#pic1{
+    background-image: url('images/poster2.jpg');
+}
+
+#pic2{
+    background-image: url('images/poster3.jpg');
+}
+
+#pic3{
+    background-image: url('images/poster4.jpg');
+}
