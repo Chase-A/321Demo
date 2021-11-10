@@ -8,7 +8,7 @@ body{
 
 h1{
     color:#eee;
-    margin: 10px;
+    margin: 10px 0;
     padding: 10px;
     background-color: black;
     width:fit-content;
@@ -84,4 +84,9 @@ img{
 
 #pic3{
     background-image: url('images/poster4.jpg');
+}
+
+main{
+    margin: auto;
+    width:fit-content;
 }
