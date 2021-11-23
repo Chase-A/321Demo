@@ -56,6 +56,10 @@ img{
 .card:hover{
     transform: scale(1.03);
     transition: transform 200ms;
+    
+}
+.delay:hover{
+    transition-delay: 200ms;
 }
 
 .card-content{
@@ -74,6 +78,20 @@ img{
     transition: transform 200ms;
 }
 
+.delay:hover .card-content{
+    transition-delay: 200ms;
+}
+
+.expand:hover{
+    transform: scale(1.2)
+}
+.push:hover{
+    width: 220px;
+    height: 330px;
+    
+}
+
+
 #pic1{
     background-image: url('images/poster2.jpg');
 }
@@ -90,3 +108,4 @@ main{
     margin: auto;
     width:fit-content;
 }
+
