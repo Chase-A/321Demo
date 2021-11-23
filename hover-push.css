@@ -89,7 +89,7 @@ img{
     width: 250px;
     height: 375px;
     font-size: 1.2em;
-    
+    transform: translateY(-10%)
 }
 
 .push .card-content {
